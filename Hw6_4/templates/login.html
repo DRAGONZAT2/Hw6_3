@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h1>Войти через Google</h1>
+    <a href="{% url 'social:begin' 'google-oauth2' %}?next={{ next }}">Войти через Google</a>
+</body>
+</html>
